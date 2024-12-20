@@ -8,9 +8,9 @@ function getFormUserName(null|string $errorMessage = null): string
 
   return <<<HTML
   <form action="post.php" method="post" class="form">
-    <p class="{$errorClass}">{$errorMessage}</p>
     <label for="user_name">Имя пользователя</label>
-    <input type="text" name="user_name" id="user_name" />
+    <input type="text" name="user_name" id="user_name" placeholder="Введите имя пользователя" required/>
+    <p class="{$errorClass}">{$errorMessage}</p>
     <button type="submit">Отправить</button>
   </form>
   HTML;
