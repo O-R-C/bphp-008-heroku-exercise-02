@@ -46,3 +46,12 @@
     font-size: 18px;
   }
 }
+
+.hello {
+  font-size: 24px;
+  margin: 0;
+}
+
+.name {
+  font-weight: bold;
+}
