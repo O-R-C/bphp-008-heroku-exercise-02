@@ -55,3 +55,20 @@
 .name {
   font-weight: bold;
 }
+
+.form-logout {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 20px;
+  margin-top: 20px;
+
+  & button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+}
